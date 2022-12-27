@@ -7,25 +7,31 @@
     <title>Document</title>
 </head>
 <body>
-    <table>
-        <tr>
-            <td><label for="user_name">User name: </label></td>
-            <td><input id="user_name" type="text" placeholder="user name" required></td>
-        </tr>
-        <tr>
-            <td><label>Password: </label></td>
-            <td><input type="password" placeholder="password"></td>
-        </tr>
-        <tr>
-            <td colspan="2"><label for="laki-laki"></label>Laki-laki
-            <input type="radio" id="laki-laki" name="jenis_kelamin">
-            <label for="perempuan"></label>Perempuan
-            <input type="radio" id="perempuan" name="jenis_kelamin" required></td>
-        </tr>
-        <tr>
-            <td><input type="submit"></td>
-        </tr>
-        
-    </table>
+    <form id="formulir" action="../List/index.html">
+        <table>
+            <tr>
+                <td><label for="user_name">User name: </label></td>
+                <td><input id="user_name" type="text" placeholder="user name" required></td>
+            </tr>
+            <tr>
+                <td><label for="pass">Password: </label></td>
+                <td><input id="pass" type="password" placeholder="password"></td>
+            </tr>
+            <tr>
+                <td colspan="2"><label for="laki-laki">Laki-laki</label>
+                <input type="radio" id="laki-laki" name="jenis_kelamin">
+                <label for="perempuan">Perempuan</label>
+                <input type="radio" id="perempuan" name="jenis_kelamin" required></td>
+            </tr>
+            <tr>
+                <td><input type="submit"></td>
+            </tr>
+            <tr>
+                <td><button form="formulir">kirim</button></td>
+            </tr>
+            
+        </table>
+    </form>
+    
 </body>
 </html>
