@@ -1,0 +1,11 @@
+nav{
+    display: inline-block;
+    margin: 10px;
+    background-color: brown;
+    color: blueviolet;
+}
+
+nav:hover{
+    background-color: whitesmoke;
+    color: red;
+}
